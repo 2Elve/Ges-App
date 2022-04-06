@@ -1,0 +1,89 @@
+﻿<Window x:Class="GES_App_design.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GES_App_design"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1450">
+    
+    
+    <!--WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"-->
+
+
+    <Grid>
+        <Border Background="#E5E5E5"
+                CornerRadius="20">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="75"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <!-- Apply White color to Navigation Bar -->
+                <Border Grid.Row="0" Grid.Column="0" Background="#FFFFFF"/>
+                <Border Grid.Row="1" Grid.Column="0" Background="#FFFFFF"/>
+
+                <!-- Logo and Name-->
+                <StackPanel Grid.Row="0"
+                            Grid.Column="0"
+                            Orientation="Horizontal">
+                    <Path Data="M41.9998 21.0966L42 21C42 9.40202 32.598 0 21 0C10.1757 0 1.26409 8.18954 0.123364 18.7105L11.79 24.4142C12.3617 23.6184 13.2953 23.1 14.35 23.1C15.2427 23.1 16.0487 23.4714 16.6219 24.068L25.9002 16.4134C25.9198 14.6906 27.3225 13.3 29.05 13.3C30.6572 13.3 31.9833 14.5037 32.1759 16.0587L41.9998 21.0966ZM17.4857 25.9482L26.5994 18.4294C27.1769 19.1434 28.0601 19.6 29.05 19.6C30.1912 19.6 31.1907 18.9931 31.7433 18.0845L41.8775 23.2815C40.7404 33.8063 31.8271 42 21 42C9.40202 42 0 32.598 0 21C0 20.9588 0.000118391 20.9177 0.000354851 20.8766L11.2016 26.3528C11.2559 28.0449 12.6447 29.4 14.35 29.4C16.0897 29.4 17.5 27.9897 17.5 26.25C17.5 26.1482 17.4952 26.0475 17.4857 25.9482Z" 
+                          Fill="#605BFF"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Center"
+                          Margin="35, 16.5, 20, 16.5"
+                          />
+                    <TextBlock Text="GES"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Foreground="Black"
+                           FontSize="19"
+                           FontFamily="Nunito"
+                           FontWeight="Medium"
+                           Padding="0,0,13,0" Margin="0,26"/>
+
+                </StackPanel>
+
+
+
+
+                <StackPanel Grid.Row="1">
+
+                    <RadioButton Content="Headcount"
+                                 Height="30"
+                                 FontSize="13"
+                                 
+                                 Style="{StaticResource MenuButtonTheme}"/>
+
+                    <RadioButton Content="Candidates"
+                                 Height="30"
+                                 FontSize="13"
+                                 Style="{StaticResource MenuButtonTheme}"/>
+
+                    <RadioButton x:Name ="Test" Content="Termination"
+                                 Height="30"
+                                 FontSize="13"
+                                 
+                                 Style="{StaticResource MenuButtonTheme}"/>
+
+                </StackPanel>
+                
+
+
+            </Grid>
+
+        </Border>
+    </Grid>
+
+
+</Window>

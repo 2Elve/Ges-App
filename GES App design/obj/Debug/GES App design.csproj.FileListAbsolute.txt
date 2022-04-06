@@ -1,0 +1,18 @@
+C:\Users\vicgo\source\repos\GES App design\GES App design\bin\Debug\GES App design.exe.config
+C:\Users\vicgo\source\repos\GES App design\GES App design\bin\Debug\GES App design.exe
+C:\Users\vicgo\source\repos\GES App design\GES App design\bin\Debug\GES App design.pdb
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design.csproj.AssemblyReference.cache
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\MainWindow.g.cs
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\App.g.cs
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design_MarkupCompile.cache
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design_MarkupCompile.lref
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\MainWindow.baml
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design.g.resources
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES_App_design.Properties.Resources.resources
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design.csproj.GenerateResource.cache
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design.csproj.CoreCompileInputs.cache
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design.exe
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design.pdb
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\GES App design_Content.g.cs
+C:\Users\vicgo\source\repos\GES App design\GES App design\obj\Debug\App.baml
